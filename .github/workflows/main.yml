@@ -12,7 +12,7 @@ env:
   NAME: go_cicd
   BUILD_PATH: ${{ github.workspace}}/today/client
 
-jobs: 
+jobs:  
   # 빌드 Job
   build:
     name: Build
